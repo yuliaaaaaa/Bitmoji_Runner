@@ -1,0 +1,48 @@
+- !<AssetImportMetadata/7807458e-c107-4932-a308-f59f9f38ad7d>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 78b1c63d-753b-4c68-a763-9638418f8a09
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 78b1c63d-753b-4c68-a763-9638418f8a09
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> ba5adf34-6c6b-461a-bc02-838380645aba
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/ba5adf34-6c6b-461a-bc02-838380645aba>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: e1eedd08-048f-49b0-ad37-2c0d75278b83
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    gameManager: false
+    laneHitTolerance: false
+    playerCollider: false
+    playerController: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - playerCollider: !<reference.ColliderComponent> 00000000-0000-0000-0000-000000000000
+      gameManager: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      playerController: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      laneHitTolerance: 0.450000
+  ScriptTypes:
+    -
+      {}

@@ -1,0 +1,100 @@
+- !<AssetImportMetadata/57c04fa4-4ed4-47ae-8d65-e29425249352>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 312f6fbf-0310-453a-add8-1141d2f06b4d
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 312f6fbf-0310-453a-add8-1141d2f06b4d
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> bcf8f341-b20f-4ec8-af89-4f43b99eef2a
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/bcf8f341-b20f-4ec8-af89-4f43b99eef2a>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: b315900a-b873-4d87-9bb1-ec790504fd98
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    baseSpawnInterval: false
+    baseSpeed: false
+    centerLaneX: false
+    coinChance: false
+    coinPrefab: false
+    coinRotation: false
+    coinScale: false
+    coinSpinSpeed: false
+    coinsRoot: false
+    despawnZ: false
+    difficultyEnabled: false
+    gameManager: false
+    leftLaneX: false
+    lowObstacleChance: false
+    lowObstaclePrefab: false
+    lowObstacleRotation: false
+    lowObstacleScale: false
+    lowObstacleSpawnY: false
+    maxSpeed: false
+    minSpawnInterval: false
+    obstaclePrefab: false
+    obstacleRotation: false
+    obstacleScale: false
+    obstaclesRoot: false
+    rightLaneX: false
+    rotateCoins: false
+    spawnIntervalDecreasePerSecond: false
+    spawnY: false
+    spawnZ: false
+    speedIncreasePerSecond: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - obstaclePrefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      lowObstaclePrefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      coinPrefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      obstaclesRoot: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      coinsRoot: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      gameManager: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      leftLaneX: -0.500000
+      centerLaneX: !<float> 0.000000
+      rightLaneX: 0.500000
+      spawnY: !<float> 0.000000
+      lowObstacleSpawnY: -0.500000
+      spawnZ: !<float> -12.000000
+      despawnZ: !<float> 35.000000
+      baseSpeed: !<float> 5.000000
+      difficultyEnabled: true
+      speedIncreasePerSecond: 0.080000
+      maxSpeed: !<float> 12.000000
+      baseSpawnInterval: 1.500000
+      spawnIntervalDecreasePerSecond: 0.020000
+      minSpawnInterval: 0.650000
+      coinChance: 0.450000
+      lowObstacleChance: 0.350000
+      obstacleScale: !<Vec3> {x: 1.000000, y: 1.000000, z: 1.000000}
+      lowObstacleScale: !<Vec3> {x: 1.000000, y: 1.000000, z: 1.000000}
+      coinScale: !<Vec3> {x: 1.000000, y: 1.000000, z: 1.000000}
+      obstacleRotation: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      lowObstacleRotation: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      coinRotation: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      rotateCoins: true
+      coinSpinSpeed: !<float> 4.000000
+  ScriptTypes:
+    -
+      {}

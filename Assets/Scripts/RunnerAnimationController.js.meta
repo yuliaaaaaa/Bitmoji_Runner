@@ -1,0 +1,46 @@
+- !<AssetImportMetadata/adf6b2b8-7af0-4510-9646-915d15de0877>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> ff6c7aea-a874-43eb-8053-f4ae73f1bd41
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> ff6c7aea-a874-43eb-8053-f4ae73f1bd41
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> 928fd81a-e0b3-44c8-8281-459ffc1442b4
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/928fd81a-e0b3-44c8-8281-459ffc1442b4>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 6c163f68-bc22-471e-abf0-ebe88fd2f227
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    animationPlayer: false
+    idleClipName: false
+    runClipName: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - animationPlayer: !<reference.AnimationPlayer> 00000000-0000-0000-0000-000000000000
+      idleClipName: Idle
+      runClipName: Run
+  ScriptTypes:
+    -
+      {}

@@ -1,0 +1,56 @@
+- !<AssetImportMetadata/61c5d614-8bc5-4f35-af9e-37e69c2c9849>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> a62d2348-96eb-4718-a034-78fee2be0ba4
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> a62d2348-96eb-4718-a034-78fee2be0ba4
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> ec7dd6b4-d3e1-43b8-a2da-0a850407733a
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/ec7dd6b4-d3e1-43b8-a2da-0a850407733a>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 576688f6-1740-417f-a6b3-2d0fadb18085
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    centerLaneX: false
+    gameManager: false
+    jumpDuration: false
+    jumpHeight: false
+    leftLaneX: false
+    moveSpeed: false
+    player: false
+    rightLaneX: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - player: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      gameManager: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      leftLaneX: !<float> -1.000000
+      centerLaneX: !<float> 0.000000
+      rightLaneX: !<float> 1.000000
+      moveSpeed: !<float> 8.000000
+      jumpDuration: 0.600000
+      jumpHeight: 0.450000
+  ScriptTypes:
+    -
+      {}

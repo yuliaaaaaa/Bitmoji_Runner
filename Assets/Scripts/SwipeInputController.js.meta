@@ -1,0 +1,46 @@
+- !<AssetImportMetadata/a495330f-b7c3-4c42-a528-888901c1ef5e>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> aa59b6c4-7ab1-4b15-8299-ec54afe893e9
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> aa59b6c4-7ab1-4b15-8299-ec54afe893e9
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> c1f3455b-6e11-412b-81c4-e9a5c9536962
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/c1f3455b-6e11-412b-81c4-e9a5c9536962>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 2611d02d-0448-458a-ad0e-bc6c0967d343
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    gameManager: false
+    playerController: false
+    swipeArea: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - swipeArea: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      playerController: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      gameManager: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}

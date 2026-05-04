@@ -1,0 +1,46 @@
+- !<AssetImportMetadata/fd4fb9e1-9c46-46d4-9ad1-0e2e3d2e30eb>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> b9ee0e24-3581-4dfd-994f-6acd5dd024e5
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> b9ee0e24-3581-4dfd-994f-6acd5dd024e5
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> 3e07fda5-a541-4171-8f3e-deb8aa7b0e60
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/3e07fda5-a541-4171-8f3e-deb8aa7b0e60>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 645d53e6-1dc4-43c8-ae4b-06524dc868c9
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    gameManager: false
+    restartButton: false
+    startButton: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - startButton: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      restartButton: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      gameManager: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}

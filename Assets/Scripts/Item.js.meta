@@ -1,0 +1,42 @@
+- !<AssetImportMetadata/b7f16b1c-3d16-421c-951f-8104816422da>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> e5ed8854-2259-4941-b59b-4d221695dfc8
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> e5ed8854-2259-4941-b59b-4d221695dfc8
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> 4b3cde46-6e4d-40d4-8b00-ac1307648e25
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/4b3cde46-6e4d-40d4-8b00-ac1307648e25>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 2a1684d1-911b-45a0-ae7a-1c4ff130331f
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    itemType: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - itemType: coin
+  ScriptTypes:
+    -
+      {}

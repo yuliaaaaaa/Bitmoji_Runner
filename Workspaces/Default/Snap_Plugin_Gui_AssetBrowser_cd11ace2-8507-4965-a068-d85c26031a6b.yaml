@@ -1,0 +1,39 @@
+CollapsedEntities:
+  type: stringset
+  value:
+    size: 33
+    values:
+      - Bitmoji Animation 4.lspkg
+      - Bitmoji Animation 4.lspkg/BaseLayer.animationAsset
+      - Bitmoji Animation 4.lspkg/BaseLayer_heavy.animationAsset
+      - Bitmoji Animation 4.lspkg/BitmojiAnimationController.js
+      - Bitmoji Animation 4.lspkg/package.native
+      - Bitmoji Animation 5.lspkg
+      - Bitmoji Animation 5.lspkg/BaseLayer.animationAsset
+      - Bitmoji Animation 5.lspkg/BaseLayer_heavy.animationAsset
+      - Bitmoji Animation 5.lspkg/BitmojiAnimationController.js
+      - Bitmoji Animation 5.lspkg/package.native
+      - Echopark.hdr
+      - Image 2.mat
+      - Image 3.mat
+      - PBR_Coin.mat
+      - PBR_Obstacle.mat
+      - Prefabs/lowObstaclePrefab.prefab
+      - Scripts/GameManager.js
+      - Scripts/Item.js
+      - Scripts/PlayerCollisionController.js
+      - Scripts/PlayerController.js
+      - Scripts/RunnerAnimationController.js
+      - Scripts/Spawner.js
+      - Scripts/SwipeInputController.js
+      - Scripts/UIInputController.js
+      - Scripts/UIManager.js
+      - "[Prefab Preview Environment].lspkg"
+      - "[Prefab Preview Environment].lspkg/Echopark"
+      - "[Prefab Preview Environment].lspkg/Echopark/Diffuse.jpeg"
+      - "[Prefab Preview Environment].lspkg/Echopark/Specular.jpeg"
+      - "[Prefab Preview Environment].lspkg/[Prefab Preview Environment].prefab"
+      - "[Prefab Preview Environment].lspkg/package.native"
+      - pbr 2.ss_graph
+      - pbr 3.ss_graph
+  options: 4
