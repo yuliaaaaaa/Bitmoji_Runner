@@ -1,5 +1,6 @@
 # Bitmoji_Runner
-<img width="447" height="802" alt="image" src="https://github.com/user-attachments/assets/4f041d71-42fb-4696-9bad-5a2227a9b55c" />
+<img width="437" height="748" alt="image" src="https://github.com/user-attachments/assets/f99e3337-cabc-4736-a4d0-f555baa7fc56" />
+
 <img width="435" height="697" alt="image" src="https://github.com/user-attachments/assets/1b210470-09ab-4b33-8971-871364930b2b" />
 
 **Bitmoji Runner** is an endless runner prototype built in **Lens Studio** as a test task.
