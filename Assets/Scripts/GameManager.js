@@ -23,9 +23,17 @@ function startGame() {
     }
 
     if (script.uiManager) {
-        script.uiManager.updateScore(score);
-        script.uiManager.updateLives(lives);
-        script.uiManager.showGameplay();
+        if (script.uiManager.updateScore) {
+            script.uiManager.updateScore(score);
+        }
+
+        if (script.uiManager.updateLives) {
+            script.uiManager.updateLives(lives);
+        }
+
+        if (script.uiManager.showGameplay) {
+            script.uiManager.showGameplay();
+        }
     }
 
     if (script.animationController && script.animationController.playRun) {
@@ -34,6 +42,12 @@ function startGame() {
 }
 
 function restartGame() {
+    isPlaying = false;
+
+    if (script.spawner && script.spawner.clearSpawnedItems) {
+        script.spawner.clearSpawnedItems();
+    }
+
     startGame();
 }
 
@@ -44,7 +58,7 @@ function addScore(amount) {
 
     score += amount;
 
-    if (script.uiManager) {
+    if (script.uiManager && script.uiManager.updateScore) {
         script.uiManager.updateScore(score);
     }
 }
@@ -56,7 +70,7 @@ function loseLife() {
 
     lives -= 1;
 
-    if (script.uiManager) {
+    if (script.uiManager && script.uiManager.updateLives) {
         script.uiManager.updateLives(lives);
     }
 
@@ -72,7 +86,7 @@ function gameOver() {
 
     isPlaying = false;
 
-    if (script.uiManager) {
+    if (script.uiManager && script.uiManager.showGameOver) {
         script.uiManager.showGameOver(score);
     }
 

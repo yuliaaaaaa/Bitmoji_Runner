@@ -50,12 +50,6 @@ function onTouchEnd(eventData) {
         return;
     }
 
-    if (!isGamePlaying()) {
-        startTouchPos = null;
-        lastTouchPos = null;
-        return;
-    }
-
     var endTouchPos = getTouchPosition(eventData);
 
     if (!endTouchPos) {
@@ -72,6 +66,12 @@ function onTouchEnd(eventData) {
     var deltaY = endTouchPos.y - startTouchPos.y;
 
     if (Math.abs(deltaX) > Math.abs(deltaY) && Math.abs(deltaX) > minSwipeDistance) {
+        if (!isGamePlaying()) {
+            startTouchPos = null;
+            lastTouchPos = null;
+            return;
+        }
+
         if (deltaX > 0) {
             if (script.playerController && script.playerController.moveRight) {
                 script.playerController.moveRight();
@@ -82,8 +82,16 @@ function onTouchEnd(eventData) {
             }
         }
     } else if (Math.abs(deltaY) > Math.abs(deltaX) && Math.abs(deltaY) > minSwipeDistance) {
-        if (script.playerController && script.playerController.jump) {
-            script.playerController.jump();
+        if (deltaY < 0) {
+            if (isGamePlaying()) {
+                if (script.playerController && script.playerController.jump) {
+                    script.playerController.jump();
+                }
+            }
+        } else {
+            if (script.gameManager && script.gameManager.restartGame) {
+                script.gameManager.restartGame();
+            }
         }
     }
 
