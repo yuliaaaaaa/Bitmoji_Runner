@@ -6,6 +6,7 @@
 
 <img width="437" height="748" alt="image" src="https://github.com/user-attachments/assets/f99e3337-cabc-4736-a4d0-f555baa7fc56" />
 
+
 **Bitmoji Runner** is an endless runner prototype built in **Lens Studio** as a test task.
 
 The player controls a Bitmoji character, switches between three lanes, collects coins, avoids obstacles, and tries to survive as long as possible.
