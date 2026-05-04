@@ -1,34 +1,53 @@
-# Gradle files
-.gradle/
-build/
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
 
-# Local configuration file (sdk path, etc)
-local.properties
+# Windows
+Thumbs.db
+Desktop.ini
 
-# Log/OS Files
+# Logs
 *.log
 
-# Android Studio generated files and folders
-captures/
-.externalNativeBuild/
-.cxx/
-*.aab
-*.apk
-output-metadata.json
+# Lens Studio cache / temporary files
+.cache/
+Cache/
+Temp/
+tmp/
+.tmp/
+Library/
+Generated/
+Intermediate/
 
-# IntelliJ
-*.iml
+# Lens Studio local / user-specific settings
+*.user
+*.local
+*.lock
+*.bak
+*.backup
+
+# Build / export outputs
+Build/
+Builds/
+Export/
+Exports/
+Dist/
+dist/
+Release/
+Releases/
+
+# Node / package caches if any tools were used
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE / editor files
+.vscode/
 .idea/
-misc.xml
-deploymentTargetDropDown.xml
-render.experimental.xml
 
-# Keystore files
-*.jks
-*.keystore
-
-# Google Services (e.g. APIs or Firebase)
-google-services.json
-
-# Android Profiling
-*.hprof
+# Archive files
+*.zip
+*.rar
+*.7z
